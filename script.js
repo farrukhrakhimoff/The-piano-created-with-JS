@@ -49,11 +49,11 @@ listItems.forEach(function (el, index, array) {
   });
 });
 // ********************************************* add the code if you want it colourful when it's played
-// function runColor() {
-//   return (
-//     "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")"
-//   );
-// }
-// function random(number) {
-//   return Math.floor(Math.random() * (number + 1));
-// }
+function runColor() {
+  return (
+    "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")"
+  );
+}
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}

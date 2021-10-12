@@ -10,6 +10,8 @@ li {
   transition: all 0.5s;
   cursor: pointer;
 }
+/*this section makes the piano white-black colored*/
+
 li:nth-child(1),
 :nth-child(3),
 :nth-child(5),
