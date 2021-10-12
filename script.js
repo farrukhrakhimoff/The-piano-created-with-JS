@@ -57,3 +57,10 @@ function runColor() {
 function random(number) {
   return Math.floor(Math.random() * (number + 1));
 }
+// ************************************************
+
+let btn = document.getElementById('btn');
+btn.addEventListener('click', function(){
+    var audio = new Audio("sounds//do-re-mi-fa-sol-lja-si.mp3");
+        audio.play();
+})  
